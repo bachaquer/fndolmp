@@ -1,19 +1,19 @@
 body{
 	font-family: 'Alata', sans-serif;
-	background-color: maroon;
+	background-color: MediumSeaGreen;
 	font-size: 16px;
 	color: white;
 }
 
 
 #header-nav{
-	background-color: lightgray;
+	background-color:  white;
 	border-radius: 0;
 	border: 0;
 }
 #logo-img{
 	background-position: center center;
-	background-image: url(https://upload.wikimedia.org/wikipedia/ru/b/bf/KFC_logo.svg);
+	background-image: url(https://www.freelogodesign.org/file/app/client/thumb/2bfb193e-a697-4a3e-b7a3-45181fe2f9bc_200x200.png?1598977852004);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	width: 175px;
@@ -25,27 +25,30 @@ body{
 }
 .navbar-brand h1{
 	font-family: 'Fredoka One', cursive;
-	color: firebrick;
-	font-size: 8em;
-	text-transform: uppercase;
+	color: DimGray;
+	font-size: 4em;
+	text-transform: capitalize;
 	font-weight: bold;
-	text-shadow: 1px 1px 8px #222, -1px 0px black, 1px 0px black, 0px 1px black, 0px -1px black;
-	margin-top: 0;
+	text-shadow: 1px 1px 6px #222, -1px 0px black, 1px 0px black, 0px 1px black, 0px -1px black;
+	margin-top: 40px;
 	margin-bottom: 20px;
 	line-height: .75;
+}
+#find{
+  color: MediumTurquoise;
+  padding-top: 0px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
 	text-decoration: none;
 }
-.navbar-brand span{
-	vertical-align: middle;
-}
+
 #nav-list{
 	padding-top: 15px;
 }
 #nav-list a{
-	color: maroon;
+	color: MediumTurquoise;
 	text-align: center;
+  /*text-shadow: -0.3px 0px black, 0.3px 0px black, 0px 0.3px black, 0px -0.3px black;*/
 }
 #nav-list a:hover{
 	background-color: #E7E7E7 ;
@@ -68,7 +71,7 @@ body{
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid black;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -88,8 +91,9 @@ body{
   margin-bottom: 35px;
   border-radius: 0;
 }
-#hours, #address {
+#hours, #testimonials {
   line-height: 2;
+  text-align: center;
 }
 #hours > span, #address > span {
   font-size: 1.3em;
@@ -100,13 +104,33 @@ body{
   line-height: 1.8;
 }
 #testimonials {
-  font-style: italic;
+  font-size: 1.3em;
+  text-align: center;
 }
-#testimonials p:nth-child(2) {
-  margin-top: 25px;
+#testimonials span{
+  padding-bottom: 80px;
 }
 .coke{
 	color: gray;
+}
+#tech a{
+  color: #E7E7E7;
+  text-align: center;
+}
+#tech a:hover{
+  color: black;
+}
+#tech a:visited, #tech a:link{
+  text-decoration: none;
+}
+#tech ul{
+      padding-inline-start: 0px;
+}
+#tech li{
+  list-style: none;
+  font-style: italic;
+  font-size: .8em;
+  margin-left: -45px;
 }
 /* END FOOTER */
 
@@ -240,9 +264,7 @@ h3.menu-item-title {
 #soon + p{
 	font-size: 2vw;
 	text-shadow: 0 0 4vw black;
-
 }
-
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -257,7 +279,7 @@ h3.menu-item-title {
   /* Header */
   #logo-img {
     background-position: center center;
-	background-image: url(https://upload.wikimedia.org/wikipedia/ru/b/bf/KFC_logo.svg);
+	background-image: url(https://www.freelogodesign.org/file/app/client/thumb/2bfb193e-a697-4a3e-b7a3-45181fe2f9bc_200x200.png?1598977852004);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	width: 100px;
@@ -265,7 +287,8 @@ h3.menu-item-title {
     margin: 5px 20px 5px 0;
   }
   .navbar-brand h1{
-  	font-size: 4em;
+  	font-size: 3em;
+    margin-top: 25px;
   	margin-bottom: 10px;
   }
   .navbar-brand{
@@ -285,7 +308,8 @@ h3.menu-item-title {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 	.navbar-brand h1{
-  	font-size: 6em;
+  	font-size: 3.8em;
+    margin-top: 5px;
   	margin-bottom: 10px;
   }
   .navbar-brand{
@@ -319,7 +343,8 @@ h3.menu-item-title {
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 20vw; /* 1vw = 1% of viewport width */
+    margin-top: 5px;
+    font-size: 12vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p { /* Kosher cert */
     font-size: .6em;

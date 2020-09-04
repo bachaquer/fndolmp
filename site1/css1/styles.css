@@ -266,6 +266,53 @@ h3.menu-item-title {
 	text-shadow: 0 0 4vw black;
 }
 
+/*#main-content{
+  position: relative;
+}*/
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: -105px;
+    overflow-x: hidden;
+    padding-top: 0px;
+    margin-top: -20px;
+    float: left;
+    margin-bottom: -30px;
+  }
+
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: block;
+    text-align: left;
+
+}
+#abouts{
+  background-color: Crimson;
+}
+#servicess{
+  background-color: DarkOrange;
+}
+#clientss{
+  background-color: LimeGreen;
+}
+#contacts{
+  background-color: MediumBlue;
+}
+#sidenav.sidenav a:hover {
+  color: black;
+  background-color: lightgray;
+}
+
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	.container .jumbotron {

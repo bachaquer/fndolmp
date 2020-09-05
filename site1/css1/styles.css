@@ -1,25 +1,25 @@
 body{
 	font-family: 'Alata', sans-serif;
-	background-color: MediumSeaGreen;
+	background-color: /*MediumSeaGreen*/#1ca11a;
 	font-size: 16px;
 	color: white;
 }
 
 
 #header-nav{
-	background-color:  white;
+  background-color: white ;
 	border-radius: 0;
 	border: 0;
   width: 100%;
   margin: 0;
   padding: 0;
-  height: 16.67%;
+  height: 100px;
   position: fixed;
   z-index: 2;
 }
 #logo-img{
 	background-position: center center;
-	background-image: url(https://www.freelogodesign.org/file/app/client/thumb/2bfb193e-a697-4a3e-b7a3-45181fe2f9bc_200x200.png?1598977852004);
+	background-image: url(https://www.freelogodesign.org/file/app/client/thumb/f2091bbc-ed72-4bd8-9223-3a098f198fef_200x200.png?1599330001220);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	width: 100px;
@@ -32,7 +32,7 @@ body{
 }
 .navbar-brand h1{
 	font-family: 'Fredoka One', cursive;
-	color: DimGray;
+  color: #3c453c;
 	font-size: 4em;
 	text-transform: capitalize;
 	font-weight: bold;
@@ -41,7 +41,7 @@ body{
 	line-height: .75;
 }
 #find{
-  color: MediumTurquoise;
+  color: /*MediumTurquoise*/#1ca11a;
   padding-top: 0px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
@@ -136,7 +136,7 @@ body{
 }
 
 #main-content{
-  padding-left: 100px;
+  padding-left: 120px;
   padding-top: 120px;
 }
   .sidenav {
@@ -149,10 +149,8 @@ body{
     overflow-x: hidden;
     padding-top: 0px;
     margin-top: 100px;
-    /*margin-top: -20px;*/
-    /*float: left;*/
     display: block;
-    /*margin-bottom: -30px;*/
+    color: black;
   }
 
   .sidenav a {
@@ -162,7 +160,7 @@ body{
     font-size: 20px;
     color: white;
     height: 16.67%;
-    width: 100px;
+    width: 50%;
     border: 1px solid black;
     display: block;
     text-align: center;
@@ -192,13 +190,18 @@ body{
   background-color: MediumBlue;
 }
 #sidenav.sidenav a:hover {
-  /*color: black;
-  background-color: white;*/
-  width: 200px;
-  padding-top: 15px;
+  width: 100%;
+  padding-top: 20px;
 }
 #sidenav.sidenav a:hover span{
   display: block;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 
@@ -213,23 +216,23 @@ body{
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  #logo-img {
+  /*#logo-img {
     background-position: center center;
-	background-image: url(https://www.freelogodesign.org/file/app/client/thumb/2bfb193e-a697-4a3e-b7a3-45181fe2f9bc_200x200.png?1598977852004);
+	background-image: url(https://www.freelogodesign.org/file/app/client/thumb/f2091bbc-ed72-4bd8-9223-3a098f198fef_200x200.png?1599330001220);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	width: 100px;
 	height: 100px;
-    margin: 5px 20px 5px 0;
+    margin: 0px 20px 5px 0;
   }
   .navbar-brand h1{
-  	font-size: 3em;
+  	font-size: 3.8em;
     margin-top: 25px;
   	margin-bottom: 10px;
   }
   .navbar-brand{
   	padding-top: 15px;
-  }
+  }*/
   /* End Header */
 
   /* Home Page */
@@ -268,6 +271,117 @@ body{
 	font-size: 3vw;
 	text-shadow: 0 0 4vw black;
 	}
+
+
+  .sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+    margin-top: 100px;
+    display: block;
+    color: black;
+  }
+
+  .sidenav a {
+    padding: auto;
+    padding-top: 25px; 
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    height: 15%;
+    width: 100%;
+    border: 0px solid black;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+    transition-property: width;
+}
+.sidenav a span{
+  display: block;
+}
+.sidenav i{
+  font-size: 40px;  
+} 
+#homie{
+  background-color: #111;
+}
+#abouts{
+  background-color: #111;
+}
+#servicess{
+  background-color: #111;
+}
+#clientss{
+  background-color: #111;
+}
+#contacts{
+  background-color: #111;
+}
+#abouts i{
+  color: Crimson;
+}
+#servicess i{
+  color: DarkOrange;
+}
+#clientss i{
+  color: LimeGreen;
+}
+#contacts i{
+  color: MediumBlue;
+}
+
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#opengo{
+  font-size: 5vw !important;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main_content {
+  transition: margin-left .5s;
+  margin: 0;
+}
+
 }
 
 /********** Extra small devices only **********/
@@ -280,7 +394,9 @@ body{
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
     margin-top: 5px;
+    margin-left: 10px;
     font-size: 12vw; /* 1vw = 1% of viewport width */
+    float: left;
   }
   .navbar-brand p { /* Kosher cert */
     font-size: .6em;
@@ -358,6 +474,112 @@ body{
 	font-size: 4vw;
 	text-shadow: 0 0 4vw black;
 	}
+  
+  .sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+    margin-top: 100px;
+    display: block;
+    color: black;
+  }
+
+  .sidenav a {
+    padding: auto;
+    padding-top: 25px; 
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    height: 15%;
+    width: 100%;
+    border: 0px solid black;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+    transition-property: width;
+}
+.sidenav a span{
+  display: block;
+}
+.sidenav i{
+  font-size: 40px;  
+} 
+#homie{
+  background-color: #111;
+}
+#abouts{
+  background-color: #111;
+}
+#servicess{
+  background-color: #111;
+}
+#clientss{
+  background-color: #111;
+}
+#contacts{
+  background-color: #111;
+}
+#abouts i{
+  color: Crimson;
+}
+#servicess i{
+  color: DarkOrange;
+}
+#clientss i{
+  color: LimeGreen;
+}
+#contacts i{
+  color: MediumBlue;
+}
+
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#opengo{
+  float: left;
+  margin:10px 20px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main_content {
+  transition: margin-left .5s;
+  margin: 0;
+}
 }
 
 

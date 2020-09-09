@@ -48,27 +48,34 @@ body{
 	text-decoration: none;
 }
 
-#nav-list{
-	padding-top: 15px;
+#fotka{
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  background-image: url(https://www.homeworkhelpglobal.com/wp-content/uploads/2018/11/multiple-choice.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: .6;
 }
-#nav-list a{
-	color: MediumTurquoise;
-	text-align: center;
-  /*text-shadow: -0.3px 0px black, 0.3px 0px black, 0px 0.3px black, 0px -0.3px black;*/
+.bazar{
+  padding-bottom: 10px;
+  font-size: 20px;
 }
-/*#nav-list a:hover{
-	background-color: #E7E7E7 ;
+h2.bazar{
+/*  color: #383429;*/
+ font-style: italic;
+ padding-bottom: 20px;
+ font-size: 40px;
 }
-#nav-list a span{
-	font-size: 1.4em
+h3.bazar{
+  font-size: 30px;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid black;
+#misok{
+  color: #ba0000;
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}*/
 
 /* FOOTER */
 .panel-footer {
@@ -86,6 +93,11 @@ body{
 #hours, #testimonials {
   line-height: 2;
   text-align: center;
+}
+#hours a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 #hours > span, #address > span {
   font-size: 1.3em;
@@ -204,42 +216,33 @@ body{
   margin-left: 50px;
 }
 
+#serch{
+  position: fixed;
+  top: 25px;
+  right: 200px;
+}
+#serch div input{
+  width: 300px;
+  height: 40px;
+  font-size: 30px;
+}
+#serch button{
+  width: 50px;
+  height: 40px;
+  font-size: 18px;
+  background-color: Gainsboro;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-	.container .jumbotron {
-    background: url(https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture34/after/images/jumbotron_1200.jpg) no-repeat;
-    height: 675px;
-  }
+	
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-  /*#logo-img {
-    background-position: center center;
-	background-image: url(https://www.freelogodesign.org/file/app/client/thumb/f2091bbc-ed72-4bd8-9223-3a098f198fef_200x200.png?1599330001220);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-    margin: 0px 20px 5px 0;
-  }
-  .navbar-brand h1{
-  	font-size: 3.8em;
-    margin-top: 25px;
-  	margin-bottom: 10px;
-  }
-  .navbar-brand{
-  	padding-top: 15px;
-  }*/
-  /* End Header */
-
+  
   /* Home Page */
-  .container .jumbotron {
-    background: url(https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture34/after/images/jumbotron_992.jpg) no-repeat;
-    height: 558px;
-  }
+
   /* End Home Page */
 }
 
@@ -257,10 +260,7 @@ body{
 
 
    /* Home Page */
-  .container .jumbotron {
-    background: url(https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture34/after/images/jumbotron_768.jpg) no-repeat;
-    height: 432px;
-  }
+  
   /* End Home Page */
 
   #soon {
@@ -405,32 +405,7 @@ body{
   .navbar-brand p img { /* Star-K */
     height: 30px;
   }
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
-  #collapsable-nav a span{
-  	font-size: 1em;
-  	margin-right: 5px;
-  }
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    background-color: lightgray;
-    color: #951c49;
-    box-shadow: 0px 0px 10px black;
-  }
-  #call-btn > a:hover, #call-btn > a:focus{
-  	background-color: white;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    color: white;
-  }
+  
 
   /* Footer */
   .panel-footer section {
@@ -446,26 +421,8 @@ body{
   /* End Footer */
 
   /* Home Page */
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-  }
-  #menu-tile, #specials-tile, #map-tile {
-    width: 360px;
-    margin: 0 auto 15px;
-  }
-
-  .menu-item-photo {
-    margin-right: auto;
-  }
-  .menu-item-tile .menu-item-price {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .menu-item-description {
-    text-align: center;;
-  }
-
+  
+ 
   #soon {
 	font-size: 20vw;
 	text-shadow: 0.8vw .8vw 0 black;
@@ -495,7 +452,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     color: white;
-    height: 15%;
+    height:100px;
     width: 100%;
     border: 0px solid black;
     display: block;
@@ -587,10 +544,7 @@ body{
 @media (max-width: 479px) {
   
   /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
-  }
+ 
 
    .col-xxs-12 {
     position: relative;

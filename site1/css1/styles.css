@@ -68,6 +68,15 @@ body#chempage{
 .bazar{
   padding-bottom: 10px;
   font-size: 20px;
+  color: black;
+}
+#bazariw{
+  background-color: white;
+  padding: 30px 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0 0 20px black;
 }
 h2.bazar{
 /*  color: #383429;*/
@@ -240,8 +249,9 @@ h3.bazar{
 
 #topic-chem{
   text-align: center;
-  text-shadow: 2px 2px 5px red;
+  text-shadow: 0px 0px 10px red;
   font-size: 8vw;
+  color: white;
 }
 /*#chemka{
   position: absolute;
@@ -256,12 +266,11 @@ h3.bazar{
   background-image: url(https://www.avensonline.org/blog/wp-content/uploads/2015/09/chemistry-and-its-applications2.jpg);
 }*/
 #chempage{
-  background-image: url(https://www.avensonline.org/blog/wp-content/uploads/2015/09/chemistry-and-its-applications2.jpg);
+  background-image: url(https://www.wits.ac.za/media/wits-university/course-finder-images/periodic-table.png);
   background-size: auto 90%;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   background-position: center top;
 }
-
 
 
 

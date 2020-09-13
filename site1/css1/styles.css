@@ -84,7 +84,7 @@ h3.bazar{
 
 /* FOOTER */
 .panel-footer {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
@@ -243,17 +243,23 @@ h3.bazar{
   text-shadow: 2px 2px 5px red;
   font-size: 8vw;
 }
-#chemka{
+/*#chemka{
   position: absolute;
   top: 100px;
   width: 100%;
-  height: 600px;
+  height: 100%;
   z-index: -1;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: center center;
   opacity: .8;
   background-image: url(https://www.avensonline.org/blog/wp-content/uploads/2015/09/chemistry-and-its-applications2.jpg);
+}*/
+#chempage{
+  background-image: url(https://www.avensonline.org/blog/wp-content/uploads/2015/09/chemistry-and-its-applications2.jpg);
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 

@@ -266,9 +266,9 @@ h3.bazar{
   background-image: url(https://www.avensonline.org/blog/wp-content/uploads/2015/09/chemistry-and-its-applications2.jpg);
 }*/
 #chempage{
-  background-image: url(https://www.wits.ac.za/media/wits-university/course-finder-images/periodic-table.png);
+  background-image: url(https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201706/MIT-Predicting-Reactions-1_0.jpg?itok=q5Dlcw3w);
   background-size: auto 90%;
-  /*background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
   background-position: center top;
 }
 

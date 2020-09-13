@@ -1,8 +1,13 @@
 body{
 	font-family: 'Alata', sans-serif;
-	background-color: /*MediumSeaGreen*/#1ca11a;
 	font-size: 16px;
 	color: white;
+}
+body#homepage{
+  background-color: #1ca11a;
+}
+body#chempage{
+  background-color: #99080c;
 }
 
 
@@ -189,16 +194,16 @@ h3.bazar{
 #homie{
   background-color: black;
 }
-#abouts{
+#chem{
   background-color: Crimson;
 }
-#servicess{
+#infor{
   background-color: DarkOrange;
 }
-#clientss{
+#biol{
   background-color: LimeGreen;
 }
-#contacts{
+#phys{
   background-color: MediumBlue;
 }
 #sidenav.sidenav a:hover {
@@ -232,6 +237,36 @@ h3.bazar{
   font-size: 18px;
   background-color: Gainsboro;
 }
+
+#topic-chem{
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+  font-size: 8vw;
+}
+#chemka{
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: .8;
+  background-image: url(https://www.avensonline.org/blog/wp-content/uploads/2015/09/chemistry-and-its-applications2.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -311,28 +346,28 @@ h3.bazar{
 #homie{
   background-color: #111;
 }
-#abouts{
+#chem{
   background-color: #111;
 }
-#servicess{
+#infor{
   background-color: #111;
 }
-#clientss{
+#biol{
   background-color: #111;
 }
-#contacts{
+#phys{
   background-color: #111;
 }
-#abouts i{
+#chem i{
   color: Crimson;
 }
-#servicess i{
+#infor i{
   color: DarkOrange;
 }
-#clientss i{
+#biol i{
   color: LimeGreen;
 }
-#contacts i{
+#phys i{
   color: MediumBlue;
 }
 
@@ -377,12 +412,25 @@ h3.bazar{
   margin-left: 50px;
 }
 
-#main_content {
+#main-content {
   transition: margin-left .5s;
   margin: 0;
+  padding-left: 50px;
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
@@ -470,28 +518,28 @@ h3.bazar{
 #homie{
   background-color: #111;
 }
-#abouts{
+#chem{
   background-color: #111;
 }
-#servicess{
+#infor{
   background-color: #111;
 }
-#clientss{
+#biol{
   background-color: #111;
 }
-#contacts{
+#phys{
   background-color: #111;
 }
-#abouts i{
+#chem i{
   color: Crimson;
 }
-#servicess i{
+#infor i{
   color: DarkOrange;
 }
-#clientss i{
+#biol i{
   color: LimeGreen;
 }
-#contacts i{
+#phys i{
   color: MediumBlue;
 }
 
@@ -533,9 +581,10 @@ h3.bazar{
   margin-left: 50px;
 }
 
-#main_content {
+#main-content {
   transition: margin-left .5s;
   margin: 0;
+  padding-left: 50px; 
 }
 }
 

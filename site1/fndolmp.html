@@ -11,9 +11,9 @@
 	<link rel="stylesheet" href="css1/styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="">
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="logo.png">
 </head>
-<body>
+<body id="homepage">
 	<header>
 		<nav id="header-nav" class="navbar navbar-default">
 			<div class="container">
@@ -42,10 +42,10 @@
   		<div id="sidenav" class="sidenav">
   			<a href="javascript:void(0)" class="closebtn visible-xs visible-sm" onclick="closeNav()">&times;</a>
   			<a id="homie" href="#"><i class="fas fa-home"></i><span>Home</span></a>
-  			<a id="abouts" href="soon.html"><i class="fas fa-flask"></i><span>Chemistry</span></a>
-  			<a id="servicess" href="soon.html"><i class="fas fa-laptop"></i><span>Informatics</span></a>
-  			<a id="clientss" href="soon.html"><i class="fas fa-leaf"></i><span>Biology</span></a>
-  			<a id="contacts" href="soon.html"><i class="fas fa-atom"></i><span>Physics</span></a>
+  			<a id="chem" href="chem.html"><i class="fas fa-flask"></i><span>Chemistry</span></a>
+  			<a id="infor" href="soon.html"><i class="fas fa-laptop"></i><span>Informatics</span></a>
+  			<a id="biol" href="soon.html"><i class="fas fa-leaf"></i><span>Biology</span></a>
+  			<a id="phys" href="soon.html"><i class="fas fa-atom"></i><span>Physics</span></a>
 		</div>
  		<h2 class="bazar">We provide opportunities for those, who seek them!</h2>
     	<p class="bazar">As you know, choosing your olympiad field is an important choice.</p>
@@ -63,7 +63,7 @@
         <section id="hours" class="col-sm-6">
           <span>Idea JOQ:</span><br>
           <a href="soon.html">Physics</a><br>
-          <a href="soon.html">Chemistry</a><br>
+          <a href="chem.html">Chemistry</a><br>
           <a href="soon.html">Biology</a><br>
           <a href="soon.html">Informatics</a>
           <hr class="visible-xs">
@@ -84,14 +84,12 @@
     <script>
 function openNav() {
   document.getElementById("sidenav").style.width = "120px";
-  document.getElementById("main_content").style.marginLeft = "120px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  document.getElementById("main-content").style.marginLeft = "120px";
 }
 
 function closeNav() {
   document.getElementById("sidenav").style.width = "0";
-  document.getElementById("main_content").style.marginLeft= "0";
-  document.body.style.backgroundColor = "white";
+  document.getElementById("main-content").style.marginLeft= "0";
 }
 </script>
 	<script src="js1/jquery-3.5.1.min.js"></script>
